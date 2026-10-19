@@ -7,10 +7,10 @@ import numpy as np
 from sklearn.preprocessing import StandardScaler
 import joblib
 
-print("--- BẮT ĐẦU TIỀN XỬ LÝ DỮ LIỆU TELCO CHURN (BẢN VIỆT HÓA) ---")
+print("--- BẮT ĐẦU TIỀN XỬ LÝ DỮ LIỆU ---")
 
 data_dir = r"D:\Tài Liệu\Đồ án TH_KTDL\Data"
-input_file_path = os.path.join(data_dir, "Telco-Customer-Churn_VN.csv")
+input_file_path = os.path.join(data_dir, "Telco-Customer-Churn.csv")
 
 df = pd.read_csv(input_file_path)
 print(f"-> Đọc file thành công từ: {input_file_path}")
